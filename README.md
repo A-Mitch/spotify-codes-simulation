@@ -5,3 +5,5 @@ Goals of the project
 1. Replicate color feature and styles
 2. Get a waveform to show
 3. Style waveform
+
+..
