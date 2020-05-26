@@ -6,4 +6,4 @@ Goals of the project
 2. Get a waveform to show
 3. Style waveform
 
-..
+
