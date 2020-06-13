@@ -1,14 +1,18 @@
-const path = require('path');
+// Imports express and path ~ allows utilities for working with files and directory paths
 const  express = require('express');
+const path = require('path');
 
 const app = express();
 
-// app.use(express.static(path.join(__dirname, 'public')));
+// static resolves to public
+app.use('/static', express.static('public'))
 
-app.get('/*', function(req,res) {
-    res.sendFile('index.html', {root: path.join(__dirname, '/')});
+// Gets the index.html page
+app.get('/', function(req,res) {
+    res.sendFile(path.join(__dirname, '/index.html'))
 })
 
+// Where are we listening for the app
 const port = 8080
 app.listen(port);
 
