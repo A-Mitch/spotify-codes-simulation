@@ -16,4 +16,4 @@ app.get('/', function(req,res) {
 const port = 8080
 app.listen(port);
 
-console.log('server on http://localhost:' + port);
+console.log(`Server running on http://localhost:${port}. Check it out! `);
