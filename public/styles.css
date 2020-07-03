@@ -14,6 +14,26 @@ h1 {
    margin: 0 auto;
 }
 
+.cover-color-code {
+   display: flex;
+   justify-content: flex-end;
+   margin: 0 auto;
+   max-width: 15rem;
+   height: 2rem;
+   background: red;
+}
+
+.soundwave {
+   display: flex;
+   max-width: 15rem;
+   height: 2rem;
+}
+
+.soundwave img{
+   width: 30%;
+   padding-left: 6rem;
+}
+
 .cover-desc {
    display: flex;
    flex-direction: column;
