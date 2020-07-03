@@ -1,0 +1,24 @@
+{
+  "name": "spotify-codes-simulation",
+  "version": "1.0.0",
+  "description": "I'm really interested in how Spotify codes works and want to get better at js, so this is me combining the two.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-Mitch/spotify-codes-simulation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-Mitch/spotify-codes-simulation/issues"
+  },
+  "homepage": "https://github.com/A-Mitch/spotify-codes-simulation#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  }
+}
