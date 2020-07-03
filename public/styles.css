@@ -1,7 +1,32 @@
-body {
-   background-color: #000000;
+h1 {
+   text-align: center;
 }
 
-h1 {
-   color: #ffffff;
+.cover-container {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 10rem;
+}
+
+.cover-container img {
+   max-width: 15rem;
+   margin: 0 auto;
+}
+
+.cover-desc {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+}
+
+.cover-desc h1{
+   font-size: 1.2rem;
+   margin-bottom: .2rem;
+   font-family: 'Poppins', sans-serif;
+}
+
+.cover-desc p{
+   margin-top: 0;
+   font-family: 'Poppins', sans-serif;
 }
