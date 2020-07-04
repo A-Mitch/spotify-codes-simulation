@@ -5,5 +5,40 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist/assets"),
         filename: "bundle.js"
+    },
+    devServer: {
+        contentBase: path.resolve(__dirname, 'dist'),
+        publicPath: 'assets/'
+    },
+    module: {
+        rules: [
+            {
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    presets: ['@babel/preset-env']
+                }
+            }
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(png|jp(e*)g|svg)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 8000,
+                            name: 'images/[hash]-[name].[ext]',
+                            publicPath: 'assets'
+                        }
+                    }
+                ]
+            }    
+    ]
     }
 };
