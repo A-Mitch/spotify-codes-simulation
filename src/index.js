@@ -9,22 +9,9 @@ document.getElementById('album').src = coverImg
 const img = document.getElementById('album').src
 
 Vibrant.from(img).getPalette()
-.then((palette) => 
-    
-    console.log(palette)
-    // console.log(`${Vibrant.Util.rgbToHex(165, 177, 212)}`)
-
-
-)
+.then((palette) => console.log(palette))
 .catch(err => {console.log(err)})
 
-// async function getColors() {
-//     let colors = await Vibrant.from(img).getPalette()
-//     console.log(colors)
-//     return colors
-// }
-
-// getColors()
 
 document.getElementById('soundwave_img').src = soundwave
 
