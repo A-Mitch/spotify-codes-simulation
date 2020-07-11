@@ -18,6 +18,13 @@ Vibrant.from(img).getPalette()
 )
 .catch(err => {console.log(err)})
 
+// async function getColors() {
+//     let colors = await Vibrant.from(img).getPalette()
+//     console.log(colors)
+//     return colors
+// }
+
+// getColors()
 
 document.getElementById('soundwave_img').src = soundwave
 
