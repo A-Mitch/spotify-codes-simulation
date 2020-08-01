@@ -26,6 +26,7 @@
     "colorthief": "^2.3.2",
     "css-loader": "^3.6.0",
     "file-loader": "^6.0.0",
+    "jpeg-js": "^0.4.1",
     "node-vibrant": "^3.1.5",
     "style-loader": "^1.2.1",
     "url-loader": "^4.1.0",
