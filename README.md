@@ -3,7 +3,5 @@ I'm really interested in how Spotify codes works and want to get better at js, s
 
 Goals of the project
 1. Replicate color feature and styles
-2. Get a waveform to show
-3. Style waveform
 
 
