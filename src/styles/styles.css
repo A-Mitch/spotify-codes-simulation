@@ -1,7 +1,11 @@
 
+body{
+   background-color: #000000;
+}
 
 h1 {
     text-align: center;
+    color: lightgray;
  }
  
  .cover-container {
@@ -14,15 +18,16 @@ h1 {
 #album {
     max-width: 15rem;
     margin: 0 auto;
+    box-shadow: -1px 34px 22px #191919;
  }
  
  .cover-color-code {
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
+    width: 15rem;
     max-width: 15rem;
     height: 2rem;
-    background: red;
  }
  
  .soundwave {
@@ -35,6 +40,7 @@ h1 {
     width: 30%;
     padding-left: 10rem;
  }
+
  
  .cover-desc {
     display: flex;
@@ -46,9 +52,11 @@ h1 {
     font-size: 1.2rem;
     margin-bottom: .2rem;
     font-family: 'Poppins', sans-serif;
+    color: #FFF;
  }
  
  .cover-desc p{
     margin-top: 0;
     font-family: 'Poppins', sans-serif;
+    color: lightgray;
  }
