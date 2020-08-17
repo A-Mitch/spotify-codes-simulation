@@ -26,7 +26,8 @@ $ npm run serve
 Once you get the server up and running you can find the project located at: http://localhost:8080/.
 
 You should see this:
-![Se so neon album](./output/willgohere.png)
+
+![Se so neon album](./src/images/output.png)
 
 ### Congrats! 🥳 You have officially gotten the project running and see Spotify code.
 
