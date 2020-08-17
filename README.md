@@ -29,6 +29,8 @@ You should see this:
 
 ![Se so neon album](./src/images/output.png)
 
+<img src="./src/images/output.png" width="48">
+
 ### Congrats! 🥳 You have officially gotten the project running and see Spotify code.
 
 ## 💯 Project facts
