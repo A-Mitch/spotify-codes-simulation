@@ -5,6 +5,7 @@ This program simulates the spotify song/album code that is shown when you share 
 ## 🤔 Why did I make this
 
 I'm really interested in how Spotify codes works and want to get better at js, so this is me combining the two.
+I explain what I learned from this project and my thought process in this Medium post (coming soon).
 
 
 ## 🏎 Getting up and Running
@@ -33,6 +34,5 @@ You should see this:
 
 ## 💯 Project facts
 * This was Developed by Alexander Mitchell.
-* I explain what I learned from this project and my thought process in this Medium post (coming soon).
 
 
